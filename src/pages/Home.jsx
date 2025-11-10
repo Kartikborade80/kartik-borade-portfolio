@@ -12,20 +12,20 @@ import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
-    'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
-    'Computer Vision Researcher',
+    'AI/ML Engineer',
+    'Cybersecurity Specialist',
+    'Ethical Hacker',
+    'Security Researcher',
     'Developer',
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/Kartikborade80' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kartikborade/' },
+    { img: gmailLogo, title: 'Email', link: 'mailto:kartikborade8010@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/message/PLRPNDIQLJFZH1' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kb_kartikborade/' },
+    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kartik.borade.545' },
   ]
 
   return (
@@ -116,7 +116,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Kartik Borade"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -163,7 +163,7 @@ export default function Home() {
                 backgroundSize: '200%',
               }}
             >
-              Kunj Desai
+              Kartik Borade
             </motion.span>
           </h1>
 
@@ -177,7 +177,7 @@ export default function Home() {
               maxWidth: '95%',
             }}
           >
-          Aritificial Intellegence Engineer | Frontend Developer | Tech Explorer
+          Diploma in AI & ML | Cybersecurity Enthusiast | Tech Explorer
           </p>
 
           {/* --- Profession Tags --- */}
@@ -228,9 +228,9 @@ export default function Home() {
             }}
           >
             {[ 
-              { label: '📍 Location', value: 'Surat,Gujrat,India' },
-              { label: '💼 Expertise', value: 'AI/ML,Problem solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📍 Location', value: 'Talegaon, Pune, Maharashtra, India' },
+              { label: '💼 Expertise', value: 'AI/ML, Cybersecurity, Ethical Hacking' },
+              { label: '📧 Contact', value: 'kartikborade8010@gmail.com' },
             ].map((info, i) => (
               <motion.div
                 key={i}

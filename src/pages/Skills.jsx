@@ -3,43 +3,59 @@ import { motion } from "framer-motion";
 import "./Skills.css";
 
 const SKILLS = [
-  { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "C", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-  { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-  { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-  { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-  { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+  // local logos added so they load reliably
+  { name: "C++", logo: "/logos/cpp.png" },
+  { name: "Java", logo: "/logos/java.png" },
+  { name: "Python", logo: "/logos/python.png" },
+  { name: "Windows", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
+  { name: "Linux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
+  { name: "Ubuntu", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
+  { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+  { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
-  { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-  { name: "OpenCV", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
+  { name: "VMware", logo: "https://upload.wikimedia.org/wikipedia/commons/3/34/VMware_Workstation_11.0_icon.png" },
+  { name: "Cisco", logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" },
+  { name: "Office 365", logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" },
+  { name: "ServiceNow", logo: "https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" },
+  { name: "Jira", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+  { name: "Wireshark", logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg" },
+  { name: "Active Directory", logo: "https://upload.wikimedia.org/wikipedia/commons/8/83/Active_Directory_logo.svg" },
+  { name: "Teams", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" },
 ];
 
 const ROWS = [
   [
-    { title: "Programming Languages", items: ["Python", "C", "C++", "Java"] },
-    { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
-    { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git"] },
-    { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV"] },
+    { 
+      title: "Operating Systems", 
+      items: ["Windows 10/11 Administration", "Linux (Ubuntu, Kali, CentOS)", "System Imaging", "User Management", "OS Updates & Patching"] 
+    },
+    { 
+      title: "Networking (CCNA-Level)", 
+      items: ["TCP/IP", "VLANs & STP", "Router & Switch Config", "DHCP & NAT", "Static & Dynamic Routing"] 
+    },
+    { 
+      title: "System Administration", 
+      items: ["Active Directory", "Hardware Support", "Software Installation", "Performance Monitoring", "User Support"] 
+    },
+    { 
+      title: "Security & Tools", 
+      items: ["Wireshark", "Nmap", "Firewall Configuration", "Endpoint Security", "Access Control"] 
+    },
   ],
   [
     {
-      title: "Core Concepts",
+      title: "IT Support Tools",
       items: [
-        "Data Structures & Algorithms",
-        "Machine Learning",
-        "Deep Learning",
-        "YOLO Object Detection",
-        "Explainable AI (XAI)",
+        "ServiceNow",
+        "Jira Ticketing",
+        "Remote Desktop",
+        "TeamViewer",
+        "Microsoft Teams",
       ],
     },
     {
-      title: "Soft Skills",
-      items: ["Teamwork", "Problem Solving", "Creativity", "Adaptability", "Communication"],
+      title: "Professional Skills",
+      items: ["Problem Solving", "Client Communication", "Technical Documentation", "Team Collaboration", "Time Management"],
     },
   ],
 ];

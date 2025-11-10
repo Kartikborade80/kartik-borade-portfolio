@@ -1,4 +1,4 @@
-# 💻 Kunj Desai — Portfolio Website
+# 💻 Kartik Borade — Portfolio Website
 Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
 It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
 
@@ -60,7 +60,7 @@ Now open [http://localhost:3000](http://localhost:3000) in your browser 🚀
 
 If you’d like to collaborate or just say hi 👋, feel free to reach out!
 
-* 📧 **Email:** [kunjd2803@gmail.com](mailto:kunjd2803@gmail.com)
+* 📧 **Email:** [kartikborade8010@gmail.com](mailto:kartikborade8010@gmail.com)
 * 💼 **LinkedIn:** [linkedin.com/in/kunj-desai-07717b293](https://www.linkedin.com/in/kunj-desai-07717b293/)
 
 ---

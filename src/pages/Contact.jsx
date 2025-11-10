@@ -65,16 +65,16 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
+    { img: githubLogo, title: "GitHub", link: "https://github.com/Kartikborade80" },
     {
       img: linkedinLogo,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/kunj-desai-07717b293/",
+      link: "https://www.linkedin.com/in/kartikborade/",
     },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: gmailLogo, title: "Email", link: "mailto:kartikborade8010@gmail.com" },
+    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/message/PLRPNDIQLJFZH1" },
+    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kb_kartikborade/" },
+    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kartik.borade.545" },
   ];
 
   return (

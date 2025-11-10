@@ -41,12 +41,12 @@ export default function Navbar() {
             color: "var(--accent)",
           }}
         >
-          KD
+          KB
         </motion.div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h1 style={{ margin: 0, fontSize: 14 }}>Kunj Desai</h1>
+          <h1 style={{ margin: 0, fontSize: 14 }}>Kartik Borade</h1>
           <div style={{ fontSize: 12, color: "var(--muted)" }}>
-            ML • AI • Developer
+            IT Support • Cybersecurity • AI/ML
           </div>
         </div>
       </div>

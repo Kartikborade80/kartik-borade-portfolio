@@ -25,13 +25,7 @@ const IMAGES = {
       photos: ["/gallery/m.png", "/gallery/m2.jpeg"],
     },
   ],
-  achievements: [
-    {
-      id: 1,
-      caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
-    },
-  ],
+  achievements: [],
 };
 
 // ✨ Animation Variants

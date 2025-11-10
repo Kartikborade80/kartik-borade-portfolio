@@ -5,34 +5,20 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
-      title: "Flipkart Hackathon",
-      org: "Flipkart",
-      date: "2022",
-      img: "/certs/flipkart.jpg",
-      link: "/certs/flipkart.jpg",
-    },
-    {
-      title: "Solution Challenge",
-      org: "Google Developers",
-      date: "2023",
-      img: "/certs/hack2skill.png",
-      link: "/certs/hack2skill.png",
-    },
-    {
-      title: "ADira",
-      org: "SCET AI Club",
+      title: "Master Card Cybersecurity Simulation",
+      org: "Master Card",
       date: "2025",
-      img: "/certs/adira.png",
-      link: "/certs/adira.png",
+      img: "/certs/cert1.svg",
+      link: "/certs/cert1.svg",
     },
   ],
   other: [
     {
-      title: "Advanced Python",
-      org: "Udemy",
-      date: "2021",
-      img: "/certs/cert3.svg",
-      link: "/certs/cert3.svg",
+      title: "Internship Certificate - Elevate Lab Cyber Security Inter",
+      org: "Elevate Lab",
+      date: "2024",
+      img: "/certs/cert2.svg",
+      link: "/certs/cert2.svg",
     },
   ],
 };
