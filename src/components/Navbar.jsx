@@ -46,7 +46,7 @@ export default function Navbar() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h1 style={{ margin: 0, fontSize: 14 }}>Kartik Borade</h1>
           <div style={{ fontSize: 12, color: "var(--muted)" }}>
-            IT Support • Cybersecurity • AI/ML
+            B.Tech AI & Data Science • AI/ML • Data Analytics
           </div>
         </div>
       </div>

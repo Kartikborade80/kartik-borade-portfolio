@@ -12,11 +12,13 @@ import facebookLogo from '../../public/facebook.png'
 
 export default function Home() {
   const professions = [
-    'AI/ML Engineer',
-    'Cybersecurity Specialist',
-    'Ethical Hacker',
-    'Security Researcher',
-    'Developer',
+    'AI/ML',
+    'Artificial Intelligence',
+    'Data Science',
+    'Data Analytics',
+    'Python',
+    'Machine Learning',
+    'Interested in Cybersecurity',
   ]
 
   const quickLinks = [
@@ -177,7 +179,7 @@ export default function Home() {
               maxWidth: '95%',
             }}
           >
-          Diploma in AI & ML | Cybersecurity Enthusiast | Tech Explorer
+            B.Tech Artificial Intelligence & Data Science | AI/ML | Data Science | Data Analytics | Tech Explorer
           </p>
 
           {/* --- Profession Tags --- */}
@@ -229,7 +231,8 @@ export default function Home() {
           >
             {[ 
               { label: '📍 Location', value: 'Talegaon, Pune, Maharashtra, India' },
-              { label: '💼 Expertise', value: 'AI/ML, Cybersecurity, Ethical Hacking' },
+              { label: '💼 Expertise', value: 'AI/ML, Artificial Intelligence, Data Science, Data Analytics' },
+              { label: '🎯 Additional Interest', value: 'Cybersecurity' },
               { label: '📧 Contact', value: 'kartikborade8010@gmail.com' },
             ].map((info, i) => (
               <motion.div

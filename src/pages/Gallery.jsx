@@ -4,28 +4,42 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import "./Gallery.css";
 
 const IMAGES = {
-  personal: [
+  college: [
     {
       id: 1,
-      caption: "Lost in the beauty of the misty forest 🌲🌫️",
-      photos: ["/gallery/matheran.jpg", "/gallery/matheran2.jpg"],
+      caption: "Head of Social Media Team — Leading the media, coverage, and creative team at D. Y. Patil Polytechnic, Pune 📸",
+      photos: ["/gallery/social_media_team.jpg"],
     },
     {
       id: 2,
-      caption:
-        "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
+      caption: "Final Year AI & ML Project Report Submission at D. Y. Patil Polytechnic Campus, Ambi, Pune 🎓",
+      photos: ["/gallery/college_project.jpg"],
     },
   ],
-  projects: [
+  travel: [
     {
-      id: 1,
-      caption:
-        "It’s an AI-powered tool that understands what someone might be feeling based on their words.",
-      photos: ["/gallery/m.png", "/gallery/m2.jpeg"],
+      id: 3,
+      caption: "Spiritual journey and serene architecture at Prem Mandir, Vrindavan 🛕✨",
+      photos: ["/gallery/vrindavan.jpg"],
+    },
+    {
+      id: 4,
+      caption: "Monsoon trek across Maharashtra's historic forts and misty peaks ⛰️🌫️",
+      photos: ["/gallery/fort_trek.jpg", "/gallery/misty_hills.jpg"],
+    },
+    {
+      id: 5,
+      caption: "Coastal expedition and sea fort exploration 🌊🏰",
+      photos: ["/gallery/beach_fort.jpg"],
     },
   ],
-  achievements: [],
+  events: [
+    {
+      id: 6,
+      caption: "Technical events, state-level project competitions & hackathon presentations 🏆💡",
+      photos: ["/certs/technotsav.jpg", "/certs/pimpri-chinchwad.jpeg"],
+    },
+  ],
 };
 
 // ✨ Animation Variants
@@ -61,7 +75,7 @@ const tabContentVariants = {
 };
 
 export default function Gallery() {
-  const [tab, setTab] = useState("personal");
+  const [tab, setTab] = useState("college");
   const [zoom, setZoom] = useState({ img: null, post: null, index: 0 });
 
   const openZoom = (post, index) =>
@@ -97,7 +111,7 @@ export default function Gallery() {
 
       {/* 🧭 Tabs */}
       <motion.div className="tab-buttons" variants={childVariants}>
-        {["personal", "projects", "achievements"].map((type) => (
+        {["college", "travel", "events"].map((type) => (
           <motion.button
             key={type}
             className={`tab ${tab === type ? "active" : ""}`}
@@ -105,7 +119,11 @@ export default function Gallery() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            {type.charAt(0).toUpperCase() + type.slice(1)}
+            {type === "college"
+              ? "College & Leadership"
+              : type === "travel"
+              ? "Travel & Expeditions"
+              : "Events & Competitions"}
           </motion.button>
         ))}
       </motion.div>
@@ -128,23 +146,40 @@ export default function Gallery() {
               whileHover={{ y: -4 }}
             >
               <p className="caption">{post.caption}</p>
-              <div
-                className={`photo-grid ${
-                  post.photos.length > 1 ? "multi" : "single"
-                }`}
-              >
-                {post.photos.map((src, i) => (
-                  <motion.div
-                    key={i}
-                    className="photo-item"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ type: "spring", stiffness: 250 }}
-                    onClick={() => openZoom(post, i)}
-                  >
-                    <img src={src} alt="gallery" />
-                  </motion.div>
-                ))}
-              </div>
+              {post.photos && post.photos.length > 0 ? (
+                <div
+                  className={`photo-grid ${
+                    post.photos.length > 1 ? "multi" : "single"
+                  }`}
+                >
+                  {post.photos.map((src, i) => (
+                    <motion.div
+                      key={i}
+                      className="photo-item"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ type: "spring", stiffness: 250 }}
+                      onClick={() => openZoom(post, i)}
+                    >
+                      <img src={src} alt="gallery" />
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <div
+                  style={{
+                    padding: "36px 20px",
+                    textAlign: "center",
+                    background: "rgba(255,255,255,0.02)",
+                    borderRadius: "12px",
+                    border: "1px dashed rgba(0,255,255,0.18)",
+                    color: "#888",
+                    fontSize: "14px",
+                    marginTop: "10px",
+                  }}
+                >
+                  📷 Photos to be updated — awaiting image uploads
+                </div>
+              )}
             </motion.div>
           ))}
         </motion.div>

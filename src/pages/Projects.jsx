@@ -2,7 +2,25 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
-const PROJECTS = []
+const PROJECTS = [
+  {
+    title: 'AutoDefenceX – Autonomous Cyber Security Monitoring Tool using Swarm Intelligence',
+    desc: 'Autonomous cyber security monitoring tool utilizing swarm intelligence, machine learning, and proactive threat detection. Research published in the International Research Journal of Engineering and Technology (IRJET), Volume 13 | Issue 03 | March 2026 | Paper ID: 22.',
+    tech: ['AI', 'Machine Learning', 'Cybersecurity', 'Threat Detection', 'Security Monitoring', 'Swarm Intelligence', 'Python'],
+    ss: '/autodefence.png',
+    code: 'https://github.com/Kartikborade80/AutoDefenceX_Tools',
+    publication: 'IRJET Vol 13, Issue 03 (March 2026)',
+    live: 'https://www.irjet.net'
+  },
+  {
+    title: 'Campus Resource Booking System',
+    desc: 'Institutional resource and facility scheduling platform built to streamline room reservations, equipment allocation, and academic asset management.',
+    tech: ['Python', 'SQL', 'Database Management', 'Web Application'],
+    ss: '/campus-booking.png',
+    code: 'https://github.com/Kartikborade80/campus-resource-booking',
+    live: 'https://github.com/Kartikborade80/campus-resource-booking'
+  }
+]
 
 export default function Projects() {
   return (

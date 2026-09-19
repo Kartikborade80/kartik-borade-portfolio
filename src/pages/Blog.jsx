@@ -7,23 +7,23 @@ export default function Blog() {
   const defaultPosts = [
     {
       id: 1,
-      title: "Why I Love Building AI Projects",
-      text: "Working on AI-based systems like mammogram cancer detection has taught me how impactful technology can be when applied to healthcare. Combining deep learning with real-world problems is my favorite way to innovate.",
+      title: "Practical AI & Machine Learning: From Concepts to Execution",
+      text: "Exploring how machine learning pipelines, predictive modeling, and data-driven architectures solve practical problems. Full article and technical breakdown will be published here.",
     },
     {
       id: 2,
-      title: "My Thoughts on Design & Aesthetics",
-      text: "I believe design should be a balance between functionality and emotion. Dark themes with minimalist layouts always inspire me to create something that feels personal and futuristic.",
+      title: "Data Science & Analytics: Unlocking Patterns in Complex Data",
+      text: "Techniques in exploratory data analysis (EDA), data cleaning, statistical evaluation, and structured visualizations using Python, Pandas, and NumPy.",
     },
     {
       id: 3,
-      title: "Balancing Tech and Creativity",
-      text: "As someone who codes and dances, I’ve realized creativity isn’t limited to art — it also lives in algorithms. Each project is like choreography for the mind.",
+      title: "AI Meets Cybersecurity: Autonomous Threat Detection",
+      text: "Analyzing the intersection of artificial intelligence and proactive security monitoring, focusing on swarm intelligence and autonomous anomaly detection.",
     },
     {
       id: 4,
-      title: "The Beauty of Simple Code",
-      text: "Clean code isn’t just about fewer lines — it’s about clarity. Elegance in code feels like poetry to me — each function should have rhythm and purpose.",
+      title: "Navigating Generative AI & Modern Developer Tools",
+      text: "Understanding LLM fundamentals, prompt engineering workflows, and integrating modern data science toolsets into practical application development.",
     },
   ];
 

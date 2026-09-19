@@ -1,9 +1,23 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-// ✅ Certificates data (added URLs for View button)
+// ✅ Certificates data
 const CERTS = {
   tech: [
+    {
+      title: "IRJET Certificate of Publication – AutoDefenceX",
+      org: "International Research Journal of Engineering and Technology (IRJET) • Vol 13, Issue 03, Paper ID: 22",
+      date: "March 2026",
+      img: "/certs/irjet-publication.jpeg",
+      link: "/certs/irjet-publication.jpeg",
+    },
+    {
+      title: "TECHNOTSAV-2K26 – Certificate of Achievement",
+      org: "State Level Project Competition • Siddhant College of Engineering (AI & ML Dept in association with MTC Group)",
+      date: "16 February 2026",
+      img: "/certs/technotsav.jpg",
+      link: "/certs/technotsav.jpg",
+    },
     {
       title: "Master Card Cybersecurity Simulation",
       org: "Master Card",
@@ -11,10 +25,24 @@ const CERTS = {
       img: "/certs/cert1.svg",
       link: "/certs/cert1.svg",
     },
+    {
+      title: "CodingSeekho Cyber Security Certificate",
+      org: "CodingSeekho",
+      date: "Verified Certificate",
+      img: "/certs/bugbuzz.png",
+      link: "/certs/bugbuzz.png",
+    },
   ],
   other: [
     {
-      title: "Internship Certificate - Elevate Lab Cyber Security Inter",
+      title: "4th Rank – Innovative Idea Presentation",
+      org: "Technical Event 2024-25 • Pimpri Chinchwad Polytechnic",
+      date: "28 February 2025",
+      img: "/certs/pimpri-chinchwad.jpeg",
+      link: "/certs/pimpri-chinchwad.jpeg",
+    },
+    {
+      title: "Internship Certificate - Elevate Lab Cyber Security Intern",
       org: "Elevate Lab",
       date: "2024",
       img: "/certs/cert2.svg",

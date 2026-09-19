@@ -3,59 +3,56 @@ import { motion } from "framer-motion";
 import "./Skills.css";
 
 const SKILLS = [
-  // local logos added so they load reliably
+  { name: "Python", logo: "/logos/python.png" },
+  { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+  { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+  { name: "Scikit-Learn", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+  { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "Jupyter", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
+  { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+  { name: "Linux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
   { name: "C++", logo: "/logos/cpp.png" },
   { name: "Java", logo: "/logos/java.png" },
-  { name: "Python", logo: "/logos/python.png" },
-  { name: "Windows", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
-  { name: "Linux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" },
-  { name: "Ubuntu", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
-  { name: "Azure", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
-  { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
-  { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "VMware", logo: "https://upload.wikimedia.org/wikipedia/commons/3/34/VMware_Workstation_11.0_icon.png" },
-  { name: "Cisco", logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" },
-  { name: "Office 365", logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" },
-  { name: "ServiceNow", logo: "https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg" },
-  { name: "Jira", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
   { name: "Wireshark", logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg" },
-  { name: "Active Directory", logo: "https://upload.wikimedia.org/wikipedia/commons/8/83/Active_Directory_logo.svg" },
-  { name: "Teams", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" },
 ];
 
 const ROWS = [
   [
     { 
-      title: "Operating Systems", 
-      items: ["Windows 10/11 Administration", "Linux (Ubuntu, Kali, CentOS)", "System Imaging", "User Management", "OS Updates & Patching"] 
+      title: "AI & Machine Learning", 
+      items: ["Artificial Intelligence", "Machine Learning", "Predictive Analytics", "Model Training", "Model Evaluation"] 
     },
     { 
-      title: "Networking (CCNA-Level)", 
-      items: ["TCP/IP", "VLANs & STP", "Router & Switch Config", "DHCP & NAT", "Static & Dynamic Routing"] 
+      title: "Data Science", 
+      items: ["Data Analysis", "Data Cleaning", "EDA", "Data Visualization", "Statistical Analysis"] 
     },
     { 
-      title: "System Administration", 
-      items: ["Active Directory", "Hardware Support", "Software Installation", "Performance Monitoring", "User Support"] 
+      title: "Programming", 
+      items: ["Python", "OOP", "Problem Solving", "C++", "Java"] 
     },
     { 
-      title: "Security & Tools", 
-      items: ["Wireshark", "Nmap", "Firewall Configuration", "Endpoint Security", "Access Control"] 
+      title: "Libraries", 
+      items: ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"] 
     },
   ],
   [
     {
-      title: "IT Support Tools",
-      items: [
-        "ServiceNow",
-        "Jira Ticketing",
-        "Remote Desktop",
-        "TeamViewer",
-        "Microsoft Teams",
-      ],
+      title: "Database",
+      items: ["SQL", "MySQL", "Relational Database Management"],
     },
     {
-      title: "Professional Skills",
-      items: ["Problem Solving", "Client Communication", "Technical Documentation", "Team Collaboration", "Time Management"],
+      title: "Generative AI",
+      items: ["Generative AI", "LLM Fundamentals", "Prompt Engineering"],
+    },
+    {
+      title: "Tools",
+      items: ["Git", "GitHub", "Jupyter Notebook", "Google Colab", "VS Code"],
+    },
+    {
+      title: "Additional Interest",
+      items: ["Cybersecurity", "Network Security", "Threat Detection", "System Security"],
     },
   ],
 ];
