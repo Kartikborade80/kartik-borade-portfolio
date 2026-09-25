@@ -126,6 +126,7 @@ export default function Home() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
+                objectPosition: 'center 10%',
                 borderRadius: '50%',
               }}
             />
