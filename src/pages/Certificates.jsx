@@ -29,8 +29,8 @@ const CERTS = {
       title: "CodingSeekho Cyber Security Certificate",
       org: "CodingSeekho",
       date: "Verified Certificate",
-      img: "/certs/bugbuzz.png",
-      link: "/certs/bugbuzz.png",
+      img: "/certs/non.png",
+      link: "/certs/non.png",
     },
   ],
   other: [
