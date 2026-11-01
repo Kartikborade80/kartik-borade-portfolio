@@ -1,82 +1,161 @@
-# 💻 Kartik Borade — Portfolio Website
-Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
-It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
+# 💻 Kartik Borade — Personal Portfolio
 
-🌐 **Website:** [[kunj-Portfolio]](https://kunj-desai.netlify.app/)
+Welcome to the official repository for **Kartik Borade's** personal portfolio website. Built with **React.js**, **Vite**, **Framer Motion**, and modern UI/UX design principles, this website highlights my academic background, projects, research publications, technical skills, certifications, and professional journey in **Artificial Intelligence, Data Science, Machine Learning, and Cybersecurity**.
 
-🖼️ **Screenshots**
-<img width="1902" height="994" alt="Screenshot 2025-11-03 232447" src="https://github.com/user-attachments/assets/6f78ceb0-363c-41e8-9eb9-a26fa814e8ac" />
-<img width="1894" height="992" alt="image" src="https://github.com/user-attachments/assets/8a6eeff0-3ebc-446c-a1ac-5f1a02279ac8" />
-<img width="1903" height="1044" alt="Screenshot 2025-11-04 153204" src="https://github.com/user-attachments/assets/355b1c4c-83e6-4465-9081-bff34bb3ad3b" />
----
-
-## 🚀 Features
-
-* 🎨 **Modern UI/UX** with black-based aesthetic theme
-* ⚡ Smooth **Framer Motion** animations
-* 💼 **Projects, Resume, and Contact sections**
-* 🧠 Tech-focused portfolio highlighting AI/ML projects
-* 📨 Functional contact form powered by **EmailJS**
-* 🧩 Responsive design for all screen sizes
+🌐 **Live Website:** [https://kartik-borade-portfolio.vercel.app/](https://kartik-borade-portfolio.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## 👨‍💻 About Me
 
-| Category            | Tools / Libraries                        |
-| ------------------- | ---------------------------------------- |
-| **Frontend**        | React.js, HTML5, CSS3, JavaScript (ES6+) |
-| **Styling**         | Tailwind CSS / Custom CSS                |
-| **Animation**       | Framer Motion                            |
-| **Contact Form**    | EmailJS                                  |
-| **Version Control** | Git & GitHub                             |
-| **Deployment**      | Vercel / Netlify                         |
+* **Name:** Kartik Borade
+* **Role / Focus:** B.Tech Student in Artificial Intelligence & Data Science | AI/ML | Data Analytics | Cybersecurity
+* **Portfolio Website:** [kartik-borade-portfolio.vercel.app](https://kartik-borade-portfolio.vercel.app/)
+* **Location:** Talegaon, Pune, Maharashtra, India
+* **Email:** [kartikborade8010@gmail.com](mailto:kartikborade8010@gmail.com)
+* **Phone:** +91 8010374800
+* **GitHub:** [@Kartikborade80](https://github.com/Kartikborade80)
+* **LinkedIn:** [linkedin.com/in/kartikborade](https://www.linkedin.com/in/kartikborade/)
 
 ---
 
-## ⚙️ Setup Instructions
+## 🎓 Education
 
-To run this project locally:
+* **B.Tech — Artificial Intelligence and Data Science** *(Current)*  
+  **Sanjivani University, Kopargaon**  
+  *Direct Second Year Admission (2026 – 2028)*
+
+* **Diploma — Artificial Intelligence and Machine Learning** *(Completed)*  
+  **D. Y. Patil Educational Campus, Ambi, Pune (MSBTE)**  
+  *Aggregate Score:* **91.29%**
+
+---
+
+## 💼 Experience
+
+* **System Engineer** — *Fencer Services Pvt. Ltd., Pune*  
+  **Client Site:** Ador Welding, Chinchwad *(Nov 2025 – Feb 2026)*  
+  * Provided IT support and troubleshooting for enterprise hardware, software, and networking.  
+  * Managed Windows and Linux operating systems, LAN/Wi-Fi infrastructure, routers, network switches, endpoint security, and preventive system maintenance.
+
+* **Cyber Security Analysis Intern** — *HummingByte Technology, Nashik*  
+  * Gained hands-on experience in security monitoring fundamentals, threat identification, and vulnerability assessment.
+
+---
+
+## 🏆 Achievements & Leadership
+
+* **Research Publication in IRJET:**  
+  *AutoDefenceX: Autonomous Cyber Security Monitoring Tool using Swarm Intelligence* — Published in the *International Research Journal of Engineering and Technology (IRJET)*, Volume 13, Issue 03, March 2026 (Paper ID: 22).
+* **4th Rank — Innovative Idea Presentation:**  
+  Technical Event 2024-25 at *Pimpri Chinchwad Polytechnic* (28 February 2025).
+* **State-Level Project Competition Participant:**  
+  *TECHNOTSAV-2K26* at *Siddhant College of Engineering* (AI & ML Dept in association with MTC Group, 16 February 2026).
+* **Head of Social Media Team:**  
+  *D. Y. Patil Polytechnic, Pune* — Led digital content creation, campus event coverage, and creative outreach.
+* **Cybersecurity Training & Simulations:**  
+  * Mastercard Cybersecurity Job Simulation  
+  * CodingSeekho Cybersecurity Certification  
+  * Elevate Lab Cyber Security Internship
+
+---
+
+## 🚀 Featured Projects
+
+### 1. [AutoDefenceX — Autonomous Cyber Security Monitoring Tool](https://github.com/Kartikborade80/AutoDefenceX_Tools)
+* **Description:** An autonomous cybersecurity monitoring framework combining swarm intelligence algorithms, machine learning models, and proactive threat detection mechanisms.
+* **Research Paper:** Published in IRJET Volume 13, Issue 03 (March 2026).
+* **Tech Stack:** Python, AI/ML, Swarm Intelligence, Threat Detection, Security Monitoring.
+* **Repository:** [AutoDefenceX_Tools](https://github.com/Kartikborade80/AutoDefenceX_Tools)
+
+### 2. [Campus Resource Booking System](https://github.com/Kartikborade80/campus-resource-booking)
+* **Description:** An institutional scheduling platform designed to streamline room reservations, facility bookings, and academic asset management.
+* **Tech Stack:** Python, SQL, Relational Database Management, Web Application.
+* **Repository:** [campus-resource-booking](https://github.com/Kartikborade80/campus-resource-booking)
+
+---
+
+## 🛠️ Technical Skills
+
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **AI & Machine Learning** | Machine Learning, Model Training & Evaluation, Predictive Analytics, Generative AI, LLM Fundamentals, Prompt Engineering |
+| **Data Science & Analytics** | Exploratory Data Analysis (EDA), Data Cleaning, Data Visualization, Statistical Analysis |
+| **Programming Languages** | Python, C++, Java, JavaScript (ES6+) |
+| **Libraries & Frameworks** | NumPy, Pandas, Scikit-learn, Matplotlib, React.js, Framer Motion |
+| **Databases** | SQL, MySQL, Relational Database Management |
+| **Developer Tools** | Git, GitHub, VS Code, Jupyter Notebook, Google Colab, Linux, Wireshark |
+| **Cybersecurity** | Threat Detection, Network Security, System Security, Security Monitoring |
+
+---
+
+## 🌐 Portfolio Website Features
+
+* **⚡ Ultra-fast & Responsive:** Powered by Vite and React 18 with a sleek dark aesthetic.
+* **🎨 Interactive UI Animations:** Built with Framer Motion, interactive skill nodes, and smooth transitions.
+* **📑 Comprehensive Sections:**
+  * **Home:** Animated introduction, profile badges, and quick links.
+  * **About Me:** Education timeline, experience cards, and academic achievements.
+  * **Projects:** Detailed cards with direct GitHub and live demo links.
+  * **Skills:** Dynamic floating skill bubble visualization and categorized tech stacks.
+  * **Certificates:** Filterable technical and co-curricular certificates with preview modals.
+  * **Gallery:** Categorized visual logs (College, Events, Treks & Architecture).
+  * **Blog:** Insightful articles with an interactive agree/disagree voting system.
+  * **Resume:** Dual resume viewer and one-click PDF download.
+  * **Contact:** Direct email messaging via EmailJS and social connection links.
+* **📈 Analytics:** Integrated with `@vercel/analytics`.
+
+---
+
+## ⚙️ Local Development Setup
+
+To run this portfolio locally on your machine:
 
 ```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/kunj2803/kunjdesai-portfolio.git
+# 1. Clone the repository
+git clone https://github.com/Kartikborade80/kartik-borade-portfolio.git
 
-# 2️⃣ Navigate to project directory
-cd kunjdesai-portfolio
+# 2. Navigate to the project directory
+cd kartik-borade-portfolio
 
-# 3️⃣ Install dependencies
+# 3. Install dependencies
 npm install
 
-# 4️⃣ Run development server
-npm start or npm run dev
+# 4. Start the development server
+npm run dev
 ```
 
-Now open [http://localhost:3000](http://localhost:3000) in your browser 🚀
+Once running, open your browser and navigate to the local URL (usually `http://localhost:5173`).
+
+### 📦 Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready assets will be generated in the `dist/` directory. You can preview the build locally using:
+
+```bash
+npm run preview
+```
 
 ---
 
-## 📬 Contact
+## 📬 Contact & Connect
 
-If you’d like to collaborate or just say hi 👋, feel free to reach out!
+Feel free to connect or reach out for opportunities, collaborations, or inquiries:
 
-* 📧 **Email:** [kartikborade8010@gmail.com](mailto:kartikborade8010@gmail.com)
-* 💼 **LinkedIn:** [linkedin.com/in/kunj-desai-07717b293](https://www.linkedin.com/in/kunj-desai-07717b293/)
-
----
-
-## 🌟 Deployment
-
-Deployed seamlessly on **Vercel** for continuous integration and fast CDN delivery.
-Every push to the `main` branch triggers an automatic rebuild and deployment.
-
----
-
-### 🏁 License
-
-This project is open source and available under the [MIT License](LICENSE).
-Feel free to fork, use, and build upon it ⭐
+* **Portfolio:** [https://kartik-borade-portfolio.vercel.app/](https://kartik-borade-portfolio.vercel.app/)
+* **Email:** [kartikborade8010@gmail.com](mailto:kartikborade8010@gmail.com)
+* **Phone:** [+91 8010374800](tel:+918010374800)
+* **LinkedIn:** [Kartik Borade](https://www.linkedin.com/in/kartikborade/)
+* **GitHub:** [@Kartikborade80](https://github.com/Kartikborade80)
+* **WhatsApp:** [Chat on WhatsApp](https://wa.me/message/PLRPNDIQLJFZH1)
+* **Instagram:** [@kb_kartikborade](https://www.instagram.com/kb_kartikborade/)
+* **Facebook:** [kartik.borade.545](https://www.facebook.com/kartik.borade.545)
 
 ---
 
-> *“Showcasing my work and passion through technology 💻”*
+## 📄 License
+
+This project is open-source and distributed under the [MIT License](LICENSE).

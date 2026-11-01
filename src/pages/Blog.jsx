@@ -30,8 +30,8 @@ export default function Blog() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const savedVotes = JSON.parse(localStorage.getItem("kd_blog_votes") || "{}");
-    const votedByUser = JSON.parse(localStorage.getItem("kd_blog_voted") || "{}");
+    const savedVotes = JSON.parse(localStorage.getItem("kb_blog_votes") || "{}");
+    const votedByUser = JSON.parse(localStorage.getItem("kb_blog_voted") || "{}");
     const withVotes = defaultPosts.map((p) => ({
       ...p,
       agree: savedVotes[p.id]?.agree || 0,
@@ -42,7 +42,7 @@ export default function Blog() {
   }, []);
 
   function vote(id, type) {
-    const votedByUser = JSON.parse(localStorage.getItem("kd_blog_voted") || "{}");
+    const votedByUser = JSON.parse(localStorage.getItem("kb_blog_voted") || "{}");
     if (votedByUser[id]) return;
 
     const next = posts.map((p) =>
@@ -53,9 +53,9 @@ export default function Blog() {
     const votes = Object.fromEntries(
       next.map((p) => [p.id, { agree: p.agree, disagree: p.disagree }])
     );
-    localStorage.setItem("kd_blog_votes", JSON.stringify(votes));
+    localStorage.setItem("kb_blog_votes", JSON.stringify(votes));
     localStorage.setItem(
-      "kd_blog_voted",
+      "kb_blog_voted",
       JSON.stringify({ ...votedByUser, [id]: type })
     );
   }
